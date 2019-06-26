@@ -1,6 +1,7 @@
 package zhr.com.baselibrary.presenter
 
 import zhr.com.baselibrary.presenter.view.IBaseView
+import javax.inject.Inject
 
 /**
  * Author by zhaohongru
@@ -8,8 +9,8 @@ import zhr.com.baselibrary.presenter.view.IBaseView
  * Date on 2019-06-25.
  * PS: Not easy to write code, please indicate.
  */
-open class BasePresenter<T : IBaseView>  {
+open class BasePresenter<T : IBaseView> {
 
-
+    lateinit var mView : T
 
 }

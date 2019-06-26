@@ -14,4 +14,6 @@ interface IBaseView {
 
     fun initView()
 
+    fun onError()
+
 }
